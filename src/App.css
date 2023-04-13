@@ -1,0 +1,52 @@
+
+
+* , body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cairo', sans-serif !important;
+}
+
+.container{
+  position: relative;
+  background-image: url(../public/assets/b.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 18px;
+  height: 100vh;
+}
+.posi-text{
+  position: absolute;
+  bottom: 20px;
+  right: 120px;
+  color: rgb(29, 29, 29);
+  font-size: 22px !important;
+  font-weight: 700 !important;
+
+}
+.img-pos{
+  border-radius: 50%;
+  position: absolute;
+  right: 27%;
+  top: 40px;
+  z-index: -1;
+}
+.textin{
+  width: 350px;
+  height: 35px !important;
+  border-radius: 5px;
+  border: 1px solid rgb(104, 104, 104);
+}
+
+.imgin{
+  width: 350px !important;
+  height: 35px !important;
+  border-radius: 5px;
+  background-color: aqua;
+}
